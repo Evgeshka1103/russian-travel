@@ -1,0 +1,12 @@
+.place__block {
+    grid-area: paragraph;
+    
+  }
+ 
+  @media screen and (max-width: 767px) {
+    .place__block {
+      margin-left: 16px;
+      margin-right: 16px;
+      
+    }
+  }
