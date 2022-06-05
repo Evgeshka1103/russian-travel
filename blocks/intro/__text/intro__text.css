@@ -1,23 +1,19 @@
 .intro__text {
-    text-align: start;
-    max-width: 690px;
-    height: 208px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 163%;
-    margin: 0;
-    padding: 40px 0 0;
+  max-width: 690px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  margin: 0;
+  padding: 40px 0 0;
+}
+@media screen and (max-width: 1023px) {
+  .intro__text {
+    max-width: 720px;
   }
-  @media screen and (max-width: 1023px) {
-    .intro__text {
-      max-width: 720px;
-    }
+}
+@media screen and (max-width: 767px) {
+  .intro__text {
+    max-width: 288px;
   }
-  @media screen and (max-width: 767px) {
-    .intro__text {
-      max-width: 288px;
-      
-      height: 520px;
-      
-    }
-  }
+}

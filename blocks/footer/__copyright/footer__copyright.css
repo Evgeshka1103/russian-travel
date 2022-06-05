@@ -1,16 +1,19 @@
 .footer__copyright {
-  margin: -16px auto;
+  margin: 0 0 0 auto;
+  justify-content: space-between;
   font-size: 14px;
   line-height: 1.14;
-  text-align: right;
+}
+@media screen and (max-width: 1023px){
+  .footer__copyright{
+
   }
-  @media screen and (max-width: 767px) {
-    .footer__copyright {
-      font-size: 14px;
-      line-height: 1;
-      margin: 64px -99px 24px;
-      
-      width: 288px;
-    }
+}
+@media screen and (max-width: 767px) {
+  .footer__copyright {
+    font-size: 14px;
+    line-height: 1;
+    
+    margin-top: 40px;
   }
-  
+}
