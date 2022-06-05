@@ -1,5 +1,5 @@
 # Проект: Путешествие по России
-https://evgeshka1103.github.io/russian-travel/index.html
+
 ### Обзор
 * Интро
 * Figma
